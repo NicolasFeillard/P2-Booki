@@ -177,7 +177,6 @@ header nav {
   outline: none;
   font-weight: bold;
 }
-
 .to-research_magnifying {
   display: none;
 }
@@ -412,7 +411,7 @@ header nav {
 
 .popular_title_content h3 {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .popular_price_content {
@@ -620,7 +619,7 @@ header nav {
   .content {
     background-color: white;
     display: flex;
-    flex-wrap: column-reverse;
+    flex-wrap: wrap;
   }
   .main {
     width: 80%;
@@ -673,6 +672,9 @@ header nav {
     header nav{
       width: 100%;
     }
+    .header_2 {
+      margin: 10px;
+    }
 
     .headernavlink{
       text-align: center;
@@ -693,19 +695,35 @@ header nav {
       object-fit: cover;
       width: 60%;
     }
-
+  
     .content {
       padding: 0;
     }
+    .to-research_magnifying {
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0065fc;
+      border-radius: 15px;
+      border: none;
+    }
+    .to-research_magnifying i {
+      color: white;
+    }
+  .to-research {
+    display: none;
+  }
 
     .header_2,
     .section-filters,
     .title_filters,
     .number_accommodations,
     #popular_accommadations_contents{
-      padding: 0’;
+      padding: 0;
     }
 
+  
     #popular_accommadations_contents{
       border-radius: 0;
     }
@@ -728,6 +746,7 @@ header nav {
     }
     .title_filters {
       align-self: flex-start;
+      margin: 10px;
     }
     .filters {
       gap: 16px;
@@ -744,7 +763,7 @@ header nav {
       width: 100%;
     }
     .vignettes_the_most_popular{
-      padding: 16px 12px’;
+      padding: 16px 12px;
     }
     .box_card {
       border-radius: 4px;
